@@ -33,10 +33,12 @@ function App() {
             style={previewStyle}
             onError={(err) => console.log(err)}
             onScan={(scan) => {
-              if(scan && qrResult !== scan) setQrResult(scan.text);
+              if(scan && qrResult !== scan) {
+                alert(scan);
+                setQrResult(scan);
+              }
             }}
           />
-          <p>{qrResult}</p>
         </div>
       )}
     </Fragment>

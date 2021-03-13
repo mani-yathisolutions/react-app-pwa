@@ -4,9 +4,8 @@ import './App.css';
 import QrReader from 'react-qr-reader'
 
 const previewStyle = {
-  height: 240,
-  width: '100%',
-  marginTop: '40px',
+  width: '80%',
+  margin: '40px',
 }
 
 function App() {
@@ -39,6 +38,7 @@ function App() {
               }
             }}
           />
+          <p style={{ marginLeft: '40px' }}>{qrResult}</p>
         </div>
       )}
     </Fragment>

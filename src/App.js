@@ -30,6 +30,7 @@ function App() {
           <QrReader
             delay={300}
             legacyMode={true}
+            facingMode={"rear"}
             style={previewStyle}
             onError={(err) => console.log(err)}
             onScan={(scan) => {

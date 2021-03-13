@@ -28,7 +28,6 @@ function App() {
         <div>
           <button style={{ marginTop: '20px', marginLeft: '20px' }} onClick={() => setQrReader(false)}>Back</button>
           <QrReader
-            legacyMode
             delay={300}
             facingMode={"environment"}
             style={previewStyle}

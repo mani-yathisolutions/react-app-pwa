@@ -28,9 +28,9 @@ function App() {
         <div>
           <button style={{ marginTop: '20px', marginLeft: '20px' }} onClick={() => setQrReader(false)}>Back</button>
           <QrReader
+            legacyMode
             delay={300}
-            legacyMode={true}
-            facingMode={"rear"}
+            facingMode={"user"}
             style={previewStyle}
             onError={(err) => console.log(err)}
             onScan={(scan) => {

@@ -1,7 +1,7 @@
 import React, { useState, Fragment } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import QrReader from 'react-qr-scanner'
+import QrReader from 'react-qr-reader'
 
 const previewStyle = {
   height: 240,

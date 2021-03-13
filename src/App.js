@@ -33,7 +33,6 @@ function App() {
             onError={(err) => console.log(err)}
             onScan={(scan) => {
               if(scan && qrResult !== scan) {
-                alert(scan);
                 setQrResult(scan);
               }
             }}

@@ -1,0 +1,7 @@
+{
+  "name": "React PWA",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
